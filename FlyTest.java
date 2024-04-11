@@ -4,7 +4,7 @@ public class FlyTest (
         biplane.setSpeed(___);
         System.out.println(___);
         Jet boeing = new Jet();
-        boeing. setSpeed(___);
+        boeing.setSpeed(___);
         System.out.println(___);
         ___;
         while (___) (
