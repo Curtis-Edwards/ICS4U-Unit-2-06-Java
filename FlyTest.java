@@ -4,14 +4,19 @@ public class FlyTest (
         biplane.setSpeed(___);
         System.out.println(___);
         Jet boeing = new Jet();
-boeing. setSpeed (
-) :
-System.out.println (
-) :
-while
-System.out .printlnd
-) :
-> 5000) 1
-* 2) :
-) else (
-System. out printin
+        boeing. setSpeed(___);
+        System.out.println(___);
+        ___;
+        while (___) (
+            ___;
+            System.out.println(___);
+            if (___ > 5000) {
+                ___(___* 2);
+            } else {
+                ___;
+            }
+            ___;
+        }
+        System.out.println(___);
+    }
+}
