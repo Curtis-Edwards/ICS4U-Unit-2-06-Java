@@ -1,7 +1,7 @@
 public class FlyTest (
     public static void main (String([] args) (
         Airplane biplane - new Airplane() ;
-        biplane.setSpeed(___);
+        biplane.setSpeed(422);
         System.out.println(___);
         Jet boeing = new Jet();
         boeing.setSpeed(___);
