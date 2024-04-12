@@ -10,10 +10,10 @@ public class FlyTest {
         while (x < 3) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
-            /*if (boeing.getSpeed() > 5000) {
-                boeing(___* 2);
+            if (boeing.getSpeed() > 5000) {
+                boeing.setSpeed(getSpeed() * 2);
             } else {
-                ___;
+                boeing.getSpeed();
             }*/
             x++;
         }
