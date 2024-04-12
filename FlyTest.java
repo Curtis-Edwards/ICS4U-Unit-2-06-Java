@@ -2,10 +2,10 @@ public class FlyTest {
     public static void main (String[] args) {
         Airplane biplane = new Airplane();
         biplane.setSpeed(212);
-        System.out.println(biplane.getSpeed);
+        System.out.println(biplane.getSpeed());
         Jet boeing = new Jet();
         boeing.setSpeed(422);
-        System.out.println(biplane.getSpeed);
+        System.out.println(biplane.getSpeed());
         /*___;
         while (___) {
             ___;
