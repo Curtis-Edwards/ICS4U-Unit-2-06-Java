@@ -11,12 +11,12 @@ public class FlyTest {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
             if (boeing.getSpeed() > 5000) {
-                boeing.setSpeed(getSpeed() * 2);
+                biplane.setSpeed(biplane.getSpeed() * 2);
             } else {
-                boeing.getSpeed();
-            }*/
+                boeing.accelerate();
+            }
             x++;
         }
-        // System.out.println(___);
+        System.out.println(biplane.getSpeed());
     }
 }
