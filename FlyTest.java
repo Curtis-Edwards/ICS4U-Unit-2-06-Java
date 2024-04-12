@@ -7,7 +7,7 @@ public class FlyTest {
         boeing.setSpeed(422);
         System.out.println(boeing.getSpeed());
         int x = 0;
-        while (x < 3) {
+        while (x < 4) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
             if (boeing.getSpeed() > 5000) {
