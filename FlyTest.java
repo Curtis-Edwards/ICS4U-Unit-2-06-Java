@@ -17,6 +17,6 @@ public class FlyTest {
             }*/
             x++;
         }
-        System.out.println(___);
+        //System.out.println(___);
     }
 }
