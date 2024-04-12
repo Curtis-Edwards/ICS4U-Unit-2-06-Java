@@ -6,17 +6,17 @@ public class FlyTest {
         Jet boeing = new Jet();
         boeing.setSpeed(422);
         System.out.println(boeing.getSpeed());
-        /*___;
-        while (___) {
-            ___;
-            System.out.println(___);
-            if (___ > 5000) {
+        int x = 0;
+        while (x < 5) {
+            //___;
+            System.out.println("test");
+            /*if (___ > 5000) {
                 ___(___* 2);
             } else {
                 ___;
-            }
-            ___;
+            }*/
+            x++;
         }
-        System.out.println(___);*/
+        System.out.println(___);
     }
 }
