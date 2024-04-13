@@ -10,6 +10,9 @@
 * The Airplane() class.
 */
 public class Airplane {
+    /**
+     * The speed of the airplane.
+     */
     private int speed;
 
     /*
