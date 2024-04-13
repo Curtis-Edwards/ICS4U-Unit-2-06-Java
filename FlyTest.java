@@ -1,13 +1,45 @@
+/*
+* This is the main code that runs with the Jet Class.
+*
+* @author  Curtis Edwards
+* @version 1.0
+* @since   2024-04-13
+*/
+
+/**
+* This is the FlyTest class.
+*/
 public class FlyTest {
-    public static void main (String[] args) {
+    /**
+    * Prevent instantiation
+    * Throw an exception IllegalStateException.
+    * if this ever is called
+    *
+    * @throws IllegalStateException if instantiation is attempted
+    */
+    private FlyTest() {
+        throw new IllegalStateException("Cannot be instantiated");
+    }
+    
+    /**
+    * The starting main() function.
+    *
+    * @param args No args will be used
+    */
+    public static void main(String[] args) {
+        // MagicNumbers & LocalVariableNames
+        final int twoHundredTwelve = 212;
+        final int fourHundredTwentyTwo = 422;
+        final int four = 422;
+        
         Airplane biplane = new Airplane();
-        biplane.setSpeed(212);
+        biplane.setSpeed(twoHundredTwelve);
         System.out.println(biplane.getSpeed());
         Jet boeing = new Jet();
-        boeing.setSpeed(422);
+        boeing.setSpeed(fourHundredTwentyTwo);
         System.out.println(boeing.getSpeed());
-        int x = 0;
-        while (x < 4) {
+        int counter = 0;
+        while (counter < four) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
             if (boeing.getSpeed() > 5000) {
@@ -15,7 +47,7 @@ public class FlyTest {
             } else {
                 boeing.accelerate();
             }
-            x++;
+            counter++;
         }
         System.out.println(biplane.getSpeed());
     }
