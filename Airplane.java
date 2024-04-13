@@ -15,14 +15,14 @@ public class Airplane {
      */
     private int speed;
 
-    /*
+    /**
      * Constructor.
      */
     public Airplane() {
         this.speed = 0;
     }
 
-    /*
+    /**
      * This method sets the speed.
      *
      * @param newSpeed The speed set to the airplane.
@@ -31,7 +31,7 @@ public class Airplane {
         this.speed = newSpeed;
     }
 
-    /*
+    /**
      * This method gets the speed.
      *
      * @return The speed of the airplane.
