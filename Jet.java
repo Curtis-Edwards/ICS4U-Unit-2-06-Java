@@ -10,13 +10,16 @@
 * The Jet() class.
 */
 public class Jet extends Airplane {
+    /**
+     * The multiplier of the Jet.
+     */
     private static final int MULTIPLIER = 2;
 
     /**
      * Constructs a new Jet object.
      */
     public Jet() {
-        super();
+        // super();
     }
 
     /**
