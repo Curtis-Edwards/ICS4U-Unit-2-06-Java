@@ -9,7 +9,7 @@
 /**
 * This is the FlyTest class.
 */
-public class FlyTest {
+final public class FlyTest {
     /**
     * Prevent instantiation
     * Throw an exception IllegalStateException.
@@ -20,7 +20,7 @@ public class FlyTest {
     private FlyTest() {
         throw new IllegalStateException("Cannot be instantiated");
     }
-    
+
     /**
     * The starting main() function.
     *
@@ -31,18 +31,19 @@ public class FlyTest {
         final int twoHundredTwelve = 212;
         final int fourHundredTwentyTwo = 422;
         final int four = 422;
-        
-        Airplane biplane = new Airplane();
+        final int fiveThousand = 5000;
+
+        final Airplane biplane = new Airplane();
         biplane.setSpeed(twoHundredTwelve);
         System.out.println(biplane.getSpeed());
-        Jet boeing = new Jet();
+        final Jet boeing = new Jet();
         boeing.setSpeed(fourHundredTwentyTwo);
         System.out.println(boeing.getSpeed());
         int counter = 0;
         while (counter < four) {
             boeing.accelerate();
             System.out.println(boeing.getSpeed());
-            if (boeing.getSpeed() > 5000) {
+            if (boeing.getSpeed() > fiveThousand) {
                 biplane.setSpeed(biplane.getSpeed() * 2);
             } else {
                 boeing.accelerate();
