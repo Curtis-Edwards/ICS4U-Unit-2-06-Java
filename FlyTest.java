@@ -9,7 +9,7 @@
 /**
 * This is the FlyTest class.
 */
-final public class FlyTest {
+final class FlyTest {
     /**
     * Prevent instantiation
     * Throw an exception IllegalStateException.
